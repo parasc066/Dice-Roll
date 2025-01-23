@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "D:\\Paras\\Projects\\Labs\\Dice Roll\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\Paras\\Projects\\Labs\\Dice Roll\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\FramePacing\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\dharmesh.chauhan\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\Paras\\Projects\\Labs\\Dice Roll\\.utmp\\RelWithDebInfo\\1a6k4r01\\armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\dharmesh.chauhan\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\Paras\\Projects\\Labs\\Dice Roll\\.utmp\\RelWithDebInfo\\1a6k4r01\\armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "swappywrapper::@7e25bd1f32ce224db4e9": {
+      "artifactName": "swappywrapper",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Paras\\Projects\\Labs\\Dice Roll\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\cxx\\RelWithDebInfo\\1a6k4r01\\obj\\armeabi-v7a\\libswappywrapper.so",
+      "runtimeFiles": []
+    }
+  }
+}

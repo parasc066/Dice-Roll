@@ -1,0 +1,2 @@
+D:\Paras\Projects\Labs\Dice Roll\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+D:\Paras\Projects\Labs\Dice Roll\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\CMakeLists.txt
