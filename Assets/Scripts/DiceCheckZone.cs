@@ -35,6 +35,11 @@ public class DiceCheckZone : MonoBehaviour
                     break;
             }
         }
+
+        else
+        {
+            DiceNumberTextScript.diceNumber = 0;
+        }
     }
 
 }
