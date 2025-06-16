@@ -19,21 +19,22 @@ public class DiceSpawner : MonoBehaviour
         
         if (Input.GetMouseButtonDown(0))
         {
-            
-            if(rPaused == false )
+            if (GameObject.FindWithTag("Dice") == null)
             {
-                Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
-                if (Physics.Raycast(ray, out RaycastHit hit))
+                if (rPaused == false)
                 {
-                    SpawnDice(hit.point);
-                }
-            }   
-                
-        
-            
+                    Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+                    if (Physics.Raycast(ray, out RaycastHit hit))
+                    {
+                        SpawnDice(hit.point);
+                    }
+                }   
+            }
+            else
+            {
+                Debug.Log("Dice already exists, cannot spawn another one.");
+            }
         }
-        
-       
     }
    
     void SpawnDice(Vector3 spawnPosition)
